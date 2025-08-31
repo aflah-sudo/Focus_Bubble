@@ -1,14 +1,14 @@
 importScripts('Firebase-App.js', 'Firebase-Auth.js', 'Firebase-Database.js');
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDiQlUBcFWGP6uW1P11gDbV2gCZ0GT5N8A",
-  authDomain: "focus-bubble-quantum-labs.firebaseapp.com",
-  databaseURL: "https://focus-bubble-quantum-labs-default-rtdb.firebaseio.com",
-  projectId: "focus-bubble-quantum-labs",
-  storageBucket: "focus-bubble-quantum-labs.firebasestorage.app",
-  messagingSenderId: "293759421749",
-  appId: "1:293759421749:web:1e33e2a6275b56d6cd507c",
-  measurementId: "G-KSFCG2RFSL"
+  apiKey: "AIza...your key...",
+  authDomain: "your-project.firebaseapp.com",
+  databaseURL: "https://your-project.firebaseio.com",
+  projectId: "your-project",
+  storageBucket: "your-project.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abcdef",
+  measurementId: "G-XXXXXXX"
 };
 
 let firebase_initialized = false;
