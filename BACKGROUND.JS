@@ -1,4 +1,9 @@
-importScripts('Firebase-App.js', 'Firebase-Auth.js', 'Firebase-Database.js');
+importScripts(
+  'firebase/Firebase-App.js',
+  'firebase/Firebase-Auth.js',
+  'firebase/Firebase-Database.js'
+);
+
 
 const firebaseConfig = {
   apiKey: "AIza...your key...",
