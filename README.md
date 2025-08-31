@@ -237,8 +237,6 @@ By releasing Focus Bubble as open-source, QuantumQuest aims to foster collaborat
 
 ## Roadmap
 - Introduce productivity monitoring features, such as session focus metrics and solve time analytics.
-- Integrate QuantumQuest’s automation framework capabilities.
-- Prepare for public release following community feedback and testing.
 
 ## License
 MIT License. See `LICENSE` for details.
