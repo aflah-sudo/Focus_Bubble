@@ -1,9 +1,24 @@
 # Focus Bubble
 
-Focus Bubble is an open-source Chrome extension developed by **QuantumQuest**, a team dedicated to building innovative automation and productivity tools.  
-Designed to enhance the LeetCode experience, Focus Bubble tracks problem-solving progress and syncs data with a Firebase leaderboard, with plans to integrate advanced productivity monitoring features in the future.  
+Focus Bubble is an open-source Chrome extension developed by **QuantumQuest**.  
+that tracks your LeetCode progress and syncs it to a Firebase-powered leaderboard.  
+Originally designed as a productivity tool, it now focuses on **batch-based competition** — helping students motivate each other by comparing solves and scores in real time.  
 
-Released as open-source to encourage collaboration and community contributions, Focus Bubble empowers developers to monitor their coding progress and compete globally.
+---
+
+## 🎯 Purpose  
+
+Of course, LeetCode already has a leaderboard, daily streaks, and global tracking.  
+So, what’s the purpose of this extension?  
+
+👉 **Focus Bubble is built for students within specific batches.**  
+The goal is to **encourage friendly competition, motivation, and consistency** inside a community, not just individual streaks.  
+
+- 👥 Compare progress with peers in the same batch  
+- 🔥 Stay accountable through a shared leaderboard  
+- 🚀 Motivate each other to solve more problems together  
+
+Unlike LeetCode’s global leaderboard, Focus Bubble creates a **batch-focused motivation system** tailored for learning groups.  
 
 ---
 
