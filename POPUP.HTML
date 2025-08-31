@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LeetCode Tracker Pro</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="container">
+    <h2>LeetCode Tracker Pro</h2>
+    
+    <div id="status_section">
+      <p><strong>User:</strong> <span id="username">Loading...</span> 
+         <a href="options.html" target="_blank">[Options]</a></p>
+      <p><strong>Score:</strong> <span id="total_score">0</span> 
+         (<span id="solve_count">0</span> solves)</p>
+      <p><strong>Timer:</strong> <span id="active_timer">0s</span></p>
+      <div id="auth_status"></div>
+    </div>
+
+    <div id="sync_section">
+      <h3>Sync Control</h3>
+      <div id="sync_status">Checking...</div>
+      <div id="sync_controls">
+        <button id="manual_sync_btn">Sync Now</button>
+        <button id="test_connection_btn">Test Connection</button>
+        <button id="clear_queue_btn">Clear Queue</button>
+      </div>
+      <div id="sync_info">
+        <p><strong>Pending:</strong> <span id="pending_count">0</span></p>
+        <p><strong>Auto-sync:</strong> <span id="auto_sync_status">Unknown</span></p>
+      </div>
+    </div>
+
+    <h3>Recent Solves</h3>
+    <table id="solves_table">
+      <thead>
+        <tr><th>Title</th><th>Diff</th><th>Time</th><th>Score</th><th>Sync</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h3>Leaderboard</h3>
+    <div id="leaderboard_error"></div>
+    <table id="leaderboard_table">
+      <thead>
+        <tr><th>Rank</th><th>Username</th><th>Score</th><th>Solves</th><th>Last</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="popup.js"></script>
+  <script src="Firebase-App.js"></script>
+<script src="Firebase-Auth.js"></script>
+<script src="Firebase-Database.js"></script>
+</body>
+</html>
